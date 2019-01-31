@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Projects</title>
-	<link href="http://juansolana.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://juansolana.github.io/blog"/>
+	<link href="http://juansolana.github.io/projects/atom.xml" rel="self"/>
+	<link href="http://juansolana.github.io/projects"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://juansolana.github.io/blog</id>
+	<id>http://juansolana.github.io/projects</id>
 	<author>
 		<name>Juan Solana</name>
 		<email>jsolanacasas@gmail.com</email>
