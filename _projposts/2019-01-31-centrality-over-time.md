@@ -1,5 +1,5 @@
 ---
-layout: project_post
+layout: projpost
 title: "Centrality Over Time: A network analysis on The Foundation saga"
 date: 2019-01-31
 ---
