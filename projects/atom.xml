@@ -4,7 +4,7 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Juan Solana's Blog</title>
+	<title>Juan Solana's Projects</title>
 	<link href="http://juansolana.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://juansolana.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -14,7 +14,7 @@ layout: feed
 		<email>jsolanacasas@gmail.com</email>
 	</author>
 
-	{% for project in site.projects %}
+	{% for project in site.projects_posts %}
 		<entry>
 			<title>{{ project.title }}</title>
 			<link href="http://juansolana.github.io{{ project.url }}"/>
