@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="project_post">
+	<ul class="projects_posts">
 
 	{% for project_post in site.projects_posts %}
 	    <li><span>{{ project_post.date | date_to_string }}</span> » <a href="{{ project_post.url }}" title="{{ project_post.title }}">{{ project_post.title }}</a></li>
